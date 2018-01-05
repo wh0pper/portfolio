@@ -45,3 +45,8 @@ html body {
 .row{
   margin: 0px auto;
 }
+
+.welcome {
+  color: darkred;
+  font-style: italic;
+}
