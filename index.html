@@ -10,53 +10,70 @@
   </head>
   <body>
 
-    <div id="leadimage">
-      <img src="img/topo.jpg" alt="banner image">
-
-    </div>
-
-    <div id="heading"><strong>Jared Clemmensen</strong></div>
-    <br>
-
     <div class="container">
-        <div id="about">
-          <h2>About Me</h2>
-          <p class="lead">Hi! Welcome to my programming portfolio. I'm an artist and designer turned programmer. Currently, I'm enrolled in a web development immersive program and working towards entering a developer role when the program is complete.
-          </p>
+
+      <div id="header">
+        <div id="leadimage"><img src="img/topo.jpg" alt="pattern image" class="img-circle"></div>
+        <div id="header-content">
+          <strong>Jared Clemmensen</strong>
+        </div>
+      </div>
+
+      <br>
+
+      <div id="about" class="contentblock">
+        <h2>About Me</h2>
+        <p class="lead">Hi! Welcome to my programming portfolio. I'm an artist and designer turned programmer. Currently, I'm enrolled in a web development immersive program and working towards entering a role as a developer when the program is complete.
+        </p>
+      </div>
+
+      <div id="projects" class="contentblock">
+        <h2>Projects</h2>
+          <p>Projects I've completed while attending Epicodus:</p>
+              <div class="row">
+                <div class="col-md-3 well">
+                  <h3>This portfolio</h3>
+                  <p>Check it out!</p>
+                  <p>Built Using: HTML, CSS, Bootstrap</p>
+                </div>
+
+                <div class="col-md-3 well">
+                  <h3>Wikiclone</h3>
+                  <p>An exercise to emulate the look and feel of Wikipedia's main page.
+                  </p>
+                  <p>Built Using: HTML, CSS, Bootstrap</p>
+                  <a href="https://github.com/wh0pper/wikiclone">Github Repo</a>
+                </div>
+
+                <div class="col-md-3 well">
+                  <h3>Vacation Site</h3>
+                  <p>A website about vacationing to Berlin created while practicing grid layout.
+                  </p>
+                  <p>Built Using: HTML &amp; CSS</p>
+                  <a href="https://github.com/wh0pper/vacation">Github Repo</a>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-md-3 well">
+                  <h3>Animal Shelter Site</h3>
+                  <p>A simple website for a shelter created while learning the basics of HTML and CSS.
+                  </p>
+                  <p>Built Using: HTML &amp; CSS</p>
+                  <a href="https://github.com/wh0pper/animalshelter">Github Repo</a>
+                </div>
+
+                <div class="col-md-3 well">
+                  <h3>Bangkok Sunrise Resort</h3>
+
+                  <p>A simple website for a resort created while learning basic CSS styling.</p>
+                  <p>Built Using: HTML &amp; CSS</p>
+                  <a href="https://github.com/wh0pper/resort">Github Repo</a>
+                </div>
+              </div>
         </div>
 
-        <div id="projects">
-          <h2>Projects</h2>
-            <p>Projects I've completed while attending Epicodus:</p>
-                <div class="row">
-                  <div class="col-md-3 well">
-                    <h3>This portfolio</h3>
-                    <p>Using: HTML, CSS, Bootstrap</p>
-                  </div>
-                  <div class="col-md-3 well">
-                    <a href="https://github.com/wh0pper/wikiclone"><h3>Wikiclone</h3></a>
-                    <p>An exercise to emulate the look and feel of Wikipedia's main page.
-                    </p>
-                    <p>Built Using: HTML, CSS, Bootstrap</p>
-                  </div>
-                  <div class="col-md-3 well">
-                    <a href="https://github.com/wh0pper/vacation"><h3>Vacation Site</h3></a>
-                    <p>A simple site about vacationing to Berlin created while practicing using Bootstrap to build grid layouts.
-                    </p>
-                    <p>Built Using: HTML &amp; CSS</p>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col-md-3 well"><a href="https://github.com/wh0pper/animalshelter">Animal Shelter Site</a></div>
-                  <div class="col-md-3 well">
-                    <a href="https://github.com/wh0pper/resort">Bangkok Sunrise Resort</a>
-                    <p>A webpage built while learning basic CSS styling.</p>
-                    <p>Built Using: HTML &amp; CSS</p>
-                  </div>
-                </div>
-        </div>
-
-        <div id="background">
+        <div id="background" class="contentblock">
           <h2>Background</h2>
           <p>I studied art and design at the University of Notre Dame, with a focus in product design. As a designer I've done freelance graphic and product design, specializing in design of home and personal accesories within the fair trade industry.
           <h3>Education</h3>
@@ -64,7 +81,7 @@
           <h3>Toolbox</h3>
         </div>
 
-        <div id="interests">
+        <div id="interests" class="contentblock">
           <h2>Other Interests</h2>
           <p> When I'm not working on expanding my development skillset, I enjoy...
             <ul>

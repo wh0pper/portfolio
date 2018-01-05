@@ -1,35 +1,36 @@
-#heading {
-
-  font-size: 40px;
-  position: relative;
-  float: left;
-  position: aboslute;
-  z-index:1;
-}
-
 #leadimage {
-  width: 100%;
+  width: 175px;
   height: 175px;
   overflow: hidden;
 }
 
+#header {
+  font-size: 40px;
 
-img {
-  width: 120%;
-  height: auto;
+}
+
+#header-content {
+  float: right
+  position: absolute;
+  bottom: 50;
+}
+
+#leadimage img {
   filter: grayscale(1);
-  position: relative;
+  width: 100%;
+  height: inherit;
 }
 
 html body {
   background-color: whitesmoke;
 }
 
-.tab-content {
+.contentblock {
   background-color: white;
   padding: 15px;
   border-left: 1px solid red;
   border-bottom: 1px solid red;
+  margin-bottom: 25px;
 }
 
 .nav {
@@ -38,7 +39,7 @@ html body {
 
 .col-md-3 {
   margin-left: 10px;
-  min-height: 200px;
+  min-height: 250px;
 }
 
 .row{
