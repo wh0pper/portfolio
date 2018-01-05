@@ -3,6 +3,8 @@
   <head>
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <meta charset="utf-8">
     <title>Jared's Portfolio</title>
   </head>
@@ -15,36 +17,45 @@
         <h1>Jared Clemmensen</h1>
       </div>
 
-      <div id="about" class="tabcontent">
-        <h2>About Me</h2>
-        <p>Hi! Welcome to my programming portfolio. I'm an artist and designer turned programmer. Currently, I am enrolled in a web development immersive program and working towards entering a developer role when the program is complete.
-        </p>
-      </div>
+      <ul class="nav nav-tabs">
+        <li class="active"><a data-toggle="tab" href="#about">About</a></li>
+        <li><a data-toggle="tab" href="#projects">Projects</a></li>
+        <li><a data-toggle="tab" href="#background">Background</a></li>
+        <li><a data-toggle="tab" href="#interests">Interests</a></li>
+      </ul>
 
-      <div id="projects" class="tabcontent">
-        <h2>Projects</h2>
-          <p>Projects I've completed while attending Epicodus:</p>
-          <ul>
-            <li>This portfolio</li>
-            <li>Wikiclone</li>
-            <li>Vacation Site</li>
-            <li>Animal Shelter Site</li>
-            <li>Bangkok Sunrise Resort</li>
-          </ul>
-      </div>
+      <div class="tab-content">
+        <div id="about" class="tab-pane fade in active">
+          <h2>About Me</h2>
+          <p>Hi! Welcome to my programming portfolio. I'm an artist and designer turned programmer. Currently, I am enrolled in a web development immersive program and working towards entering a developer role when the program is complete.
+          </p>
+        </div>
 
-      <div id="background" class="tabcontent">
-        <h2>Background</h2>
-        <p>I studied art and design at the University of Notre Dame, with a focus in product design. As a designer I've done freelance graphic and product design, specializing in design of home and personal accesories within the fair trade industry.
-        <h3>Education</h3>
-        <h3>Work Experience</h3>
-        <h3>Toolbox</h3>
-      </div>
+        <div id="projects" class="tab-pane fade">
+          <h2>Projects</h2>
+            <p>Projects I've completed while attending Epicodus:</p>
+            <ul>
+              <li>This portfolio</li>
+              <li><a href="https://github.com/wh0pper/wikiclone">Wikiclone</a></li>
+              <li><a href="https://github.com/wh0pper/vacation">Vacation Site</a></li>
+              <li><a href="https://github.com/wh0pper/animalshelter">Animal Shelter Site</a></li>
+              <li><a href="https://github.com/wh0pper/resort">Bangkok Sunrise Resort</a></li>
+            </ul>
+        </div>
 
-      <div id="interests" class="tabcontent">
-        <h2>Other Interests</h2>
-        <p> When I'm not working on expanding my development skillset, I enjoy making music-resopnsive light installations, running, cycling, and doing yoga.
-        </p>
+        <div id="background" class="tab-pane fade">
+          <h2>Background</h2>
+          <p>I studied art and design at the University of Notre Dame, with a focus in product design. As a designer I've done freelance graphic and product design, specializing in design of home and personal accesories within the fair trade industry.
+          <h3>Education</h3>
+          <h3>Work Experience</h3>
+          <h3>Toolbox</h3>
+        </div>
+
+        <div id="interests" class="tab-pane fade">
+          <h2>Other Interests</h2>
+          <p> When I'm not working on expanding my development skillset, I enjoy making music-resopnsive light installations, running, cycling, and doing yoga.
+          </p>
+        </div>
       </div>
     </div>
   </body>
