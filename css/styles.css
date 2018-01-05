@@ -1,5 +1,23 @@
-.container {
-  background-color: #D3D3D3;
+#heading {
+  max-height: 150px;
+  color: white;
+  position: relative;
+}
+
+#leadimage img {
   width: 100%;
-  height: 100%;
+  height: auto;
+  filter: grayscale(1);
+  position: absolute;
+}
+
+html body {
+  background-color: whitesmoke;
+}
+
+.tab-content {
+  background-color: white;
+  padding: 5px;
+  border-left: 1px solid red;
+  border-bottom: 1px solid red;
 }
