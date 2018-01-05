@@ -4,21 +4,19 @@
   overflow: hidden;
 }
 
-#header {
-  font-size: 40px;
-
-}
 
 #header-content {
-  float: right
+  font-size: 40px;
   position: absolute;
-  bottom: 50;
+  bottom: 0;
+  margin-left: 200px;
 }
 
 #leadimage img {
   filter: grayscale(1);
   width: 100%;
   height: inherit;
+  float: left;
 }
 
 html body {
@@ -41,6 +39,10 @@ html body {
   margin-left: 10px;
   min-height: 250px;
 }
+
+ #headrow {
+   position: relative;
+ }
 
 .row{
   margin: 0px auto;
