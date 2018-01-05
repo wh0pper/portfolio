@@ -1,7 +1,10 @@
 #heading {
+
+  font-size: 40px;
   position: relative;
   float: left;
-  background-color: transparent !important;
+  position: aboslute;
+  z-index:1;
 }
 
 #leadimage {
@@ -10,11 +13,12 @@
   overflow: hidden;
 }
 
-#leadimage img {
+/*#leadimage*/
+img {
   width: 120%;
   height: auto;
   filter: grayscale(1);
-
+  position: relative;
 }
 
 html body {
@@ -23,11 +27,20 @@ html body {
 
 .tab-content {
   background-color: white;
-  padding: 5px;
+  padding: 15px;
   border-left: 1px solid red;
   border-bottom: 1px solid red;
 }
 
 .nav {
   margin-top: 50px;
+}
+
+.col-md-3 {
+  margin-left: 10px;
+  min-height: 200px;
+}
+
+.row{
+  margin: 0px auto;
 }

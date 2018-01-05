@@ -3,19 +3,21 @@
   <head>
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
     <meta charset="utf-8">
     <title>Jared's Portfolio</title>
   </head>
   <body>
 
     <div id="leadimage">
-      <div id ="heading">
-        Jared Clemmensen
-      </div>
-      <img src="img/topo.jpg">
+      <img src="img/topo.jpg" alt="banner image">
+
     </div>
+
+    <div id="heading"><strong>Jared Clemmensen</strong></div>
+    <br>
+
 
     <div class="container">
       <ul class="nav nav-tabs">
@@ -35,13 +37,32 @@
         <div id="projects" class="tab-pane fade">
           <h2>Projects</h2>
             <p>Projects I've completed while attending Epicodus:</p>
-            <ul>
-              <li>This portfolio</li>
-              <li><a href="https://github.com/wh0pper/wikiclone">Wikiclone</a></li>
-              <li><a href="https://github.com/wh0pper/vacation">Vacation Site</a></li>
-              <li><a href="https://github.com/wh0pper/animalshelter">Animal Shelter Site</a></li>
-              <li><a href="https://github.com/wh0pper/resort">Bangkok Sunrise Resort</a></li>
-            </ul>
+                <div class="row">
+                  <div class="col-md-3 well">
+                    <h3>This portfolio</h3>
+                    <p>Using: HTML, CSS, Bootstrap</p>
+                  </div>
+                  <div class="col-md-3 well">
+                    <a href="https://github.com/wh0pper/wikiclone"><h3>Wikiclone</h3></a>
+                    <p>An exercise to emulate the look and feel of Wikipedia's main page.
+                    </p>
+                    <p>Built Using: HTML, CSS, Bootstrap</p>
+                  </div>
+                  <div class="col-md-3 well">
+                    <a href="https://github.com/wh0pper/vacation"><h3>Vacation Site</h3></a>
+                    <p>A simple site about vacationing to Berlin created while practicing using Bootstrap to build grid layouts.
+                    </p>
+                    <p>Built Using: HTML &amp; CSS</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-3 well"><a href="https://github.com/wh0pper/animalshelter">Animal Shelter Site</a></div>
+                  <div class="col-md-3 well">
+                    <a href="https://github.com/wh0pper/resort">Bangkok Sunrise Resort</a>
+                    <p>A webpage built while learning basic CSS styling.</p>
+                    <p>Built Using: HTML &amp; CSS</p>
+                  </div>
+                </div>
         </div>
 
         <div id="background" class="tab-pane fade">
