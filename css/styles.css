@@ -61,3 +61,25 @@ html body {
 blockquote p{
   font-size: 14px;
 }
+
+.footer-container {
+  width: 100%;
+  min-height: 150px;
+  background-color: darkgrey;
+  margin-top: 50px;
+  padding: 25px;
+  position: relative;
+}
+
+
+.copyright {
+  width: 250px;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  margin-left: -125px;
+  margin-bottom: 10px;
+  color: whitesmoke;
+  font-weight: lighter;
+}
