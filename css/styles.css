@@ -6,7 +6,7 @@
 
 
 #header-content {
-  font-size: 40px;
+  font-size: 30px;
   position: absolute;
   bottom: 0;
   margin-left: 200px;
@@ -51,4 +51,13 @@ html body {
 .welcome {
   color: darkred;
   font-style: italic;
+}
+
+.subtitle {
+  color: darkred;
+  font-size: 20px;
+}
+
+blockquote p{
+  font-size: 14px;
 }
